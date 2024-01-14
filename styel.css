@@ -11,7 +11,7 @@
      
 }
 .navber {
-    background-color: rgba(128, 128, 128, 0.558);
+    background-color: rgb(176, 230, 230);
     padding: 4px;
 }
 .navber ul li {
@@ -34,8 +34,11 @@
 .searchbox{
     border: 1px solid;
 }
-.searchbox {
+.searchbox form {
    
     padding: 7px 5px 3px 5px;
+}
+.searchbox form input:focus {
+    outline-color: #ffffff ;
 }
 
